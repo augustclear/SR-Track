@@ -34,12 +34,14 @@
 				<Item Name="Oracle Popup.vi" Type="VI" URL="../Oracle Popup.vi"/>
 			</Item>
 			<Item Name="SubVIs" Type="Folder">
+				<Item Name="String to Enum.vi" Type="VI" URL="../String to Enum.vi"/>
 				<Item Name="Next Value in Line.vi" Type="VI" URL="../Next Value in Line.vi"/>
 				<Item Name="Skip Value.vi" Type="VI" URL="../Skip Value.vi"/>
 			</Item>
 		</Item>
 		<Item Name="SR Cluster.ctl" Type="VI" URL="../SR Cluster.ctl"/>
 		<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
+		<Item Name="SR Status.ctl" Type="VI" URL="../SR Status.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="LVPointTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVPointTypeDef.ctl"/>
@@ -78,6 +80,11 @@
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
 			</Item>
+			<Item Name="Last Updated Comparison.vi" Type="VI" URL="../../../SR Track/Last Updated Comparison.vi"/>
+			<Item Name="Days Open Comparison.vi" Type="VI" URL="../../../SR Track/Days Open Comparison.vi"/>
+			<Item Name="SR Type Comparison.vi" Type="VI" URL="../../../SR Track/SR Type Comparison.vi"/>
+			<Item Name="SR Status Comparison.vi" Type="VI" URL="../../../SR Track/SR Status Comparison.vi"/>
+			<Item Name="SR Number Comparison.vi" Type="VI" URL="../../../SR Track/SR Number Comparison.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
