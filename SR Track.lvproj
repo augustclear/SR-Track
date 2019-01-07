@@ -13,7 +13,13 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="List Control" Type="Folder">
 			<Item Name="Sort VIs" Type="Folder">
-				<Item Name="Comparison VIs" Type="Folder"/>
+				<Item Name="Comparison VIs" Type="Folder">
+					<Item Name="Last Updated Comparison.vi" Type="VI" URL="../Last Updated Comparison.vi"/>
+					<Item Name="Days Open Comparison.vi" Type="VI" URL="../Days Open Comparison.vi"/>
+					<Item Name="SR Type Comparison.vi" Type="VI" URL="../SR Type Comparison.vi"/>
+					<Item Name="SR Status Comparison.vi" Type="VI" URL="../SR Status Comparison.vi"/>
+					<Item Name="SR Number Comparison.vi" Type="VI" URL="../SR Number Comparison.vi"/>
+				</Item>
 				<Item Name="Sort SR List.vi" Type="VI" URL="../Sort SR List.vi"/>
 				<Item Name="Bubble Sort.vi" Type="VI" URL="../Bubble Sort.vi"/>
 			</Item>
@@ -80,11 +86,6 @@
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
 			</Item>
-			<Item Name="Last Updated Comparison.vi" Type="VI" URL="../../../SR Track/Last Updated Comparison.vi"/>
-			<Item Name="Days Open Comparison.vi" Type="VI" URL="../../../SR Track/Days Open Comparison.vi"/>
-			<Item Name="SR Type Comparison.vi" Type="VI" URL="../../../SR Track/SR Type Comparison.vi"/>
-			<Item Name="SR Status Comparison.vi" Type="VI" URL="../../../SR Track/SR Status Comparison.vi"/>
-			<Item Name="SR Number Comparison.vi" Type="VI" URL="../../../SR Track/SR Number Comparison.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
