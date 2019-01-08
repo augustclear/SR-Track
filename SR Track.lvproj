@@ -108,7 +108,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/Users/cclark/Documents/Builds/SR Tracker 0.1</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{36F61178-B00A-47BC-9224-872BA4FDAC69}</Property>
-				<Property Name="Bld_version.build" Type="Int">2</Property>
+				<Property Name="Bld_version.build" Type="Int">4</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">SR Track.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/Users/cclark/Documents/Builds/SR Tracker 0.1/NI_AB_PROJECTNAME.exe</Property>
