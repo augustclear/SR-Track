@@ -11,6 +11,10 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="UI VIs" Type="Folder">
+			<Item Name="Get Refnum From Label.vi" Type="VI" URL="../Get Refnum From Label.vi"/>
+			<Item Name="Move Main VI Controls.vi" Type="VI" URL="../Move Main VI Controls.vi"/>
+		</Item>
 		<Item Name="List Control" Type="Folder">
 			<Item Name="Sort VIs" Type="Folder">
 				<Item Name="Comparison VIs" Type="Folder">
@@ -48,9 +52,6 @@
 		<Item Name="SR Cluster.ctl" Type="VI" URL="../SR Cluster.ctl"/>
 		<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
 		<Item Name="SR Status.ctl" Type="VI" URL="../SR Status.ctl"/>
-		<Item Name="Control Refnum Cluster.ctl" Type="VI" URL="../Control Refnum Cluster.ctl"/>
-		<Item Name="Move Main VI Controls.vi" Type="VI" URL="../Move Main VI Controls.vi"/>
-		<Item Name="Close All Control Refnums.vi" Type="VI" URL="../Close All Control Refnums.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="LVPointTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVPointTypeDef.ctl"/>
