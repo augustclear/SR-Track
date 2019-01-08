@@ -1,5 +1,7 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="18008000">
+	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
+	<Property Name="NI.Project.Description" Type="Str"></Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
@@ -50,8 +52,9 @@
 			</Item>
 		</Item>
 		<Item Name="SR Cluster.ctl" Type="VI" URL="../SR Cluster.ctl"/>
-		<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
+		<Item Name="Main2.vi" Type="VI" URL="../Main2.vi"/>
 		<Item Name="SR Status.ctl" Type="VI" URL="../SR Status.ctl"/>
+		<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="LVPointTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVPointTypeDef.ctl"/>
