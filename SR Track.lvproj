@@ -16,6 +16,7 @@
 		<Item Name="UI VIs" Type="Folder">
 			<Item Name="Get Refnum From Label.vi" Type="VI" URL="../Get Refnum From Label.vi"/>
 			<Item Name="Move Main VI Controls.vi" Type="VI" URL="../Move Main VI Controls.vi"/>
+			<Item Name="Center2.vi" Type="VI" URL="../Center2.vi"/>
 		</Item>
 		<Item Name="List Control" Type="Folder">
 			<Item Name="Sort VIs" Type="Folder">
@@ -108,7 +109,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/Users/cclark/Documents/Builds/SR Tracker 0.1</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{36F61178-B00A-47BC-9224-872BA4FDAC69}</Property>
-				<Property Name="Bld_version.build" Type="Int">4</Property>
+				<Property Name="Bld_version.build" Type="Int">5</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">SR Track.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/Users/cclark/Documents/Builds/SR Tracker 0.1/NI_AB_PROJECTNAME.exe</Property>
