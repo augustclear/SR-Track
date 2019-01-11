@@ -116,32 +116,32 @@
 			<Item Name="ChannelProbeWindowStagger.vi" Type="VI" URL="/&lt;resource&gt;/ChannelSupport/_ChannelSupport/ChannelProbeWindowStagger.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
-			<Item Name="SR Tracker 0.1" Type="EXE">
+			<Item Name="SR Tracker 0.2" Type="EXE">
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
 				<Property Name="App_INI_aliasGUID" Type="Str">{D3B186E2-1FE9-4D5D-AB5F-3F92C099D7F2}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{15CC835B-9B8A-42E2-89A3-91A42C6EC6AA}</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{C064C146-A2DE-4661-9E90-B8C0BFBD7BFC}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">SR Tracker 0.1</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">SR Tracker 0.2</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">/C/Users/cclark/Documents/Builds/SR Tracker 0.1</Property>
+				<Property Name="Bld_localDestDir" Type="Path">/C/Users/cclark/Documents/Builds/SR Tracker 0.2</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{36F61178-B00A-47BC-9224-872BA4FDAC69}</Property>
-				<Property Name="Bld_version.build" Type="Int">5</Property>
+				<Property Name="Bld_version.build" Type="Int">6</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">SR Track.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">/C/Users/cclark/Documents/Builds/SR Tracker 0.1/NI_AB_PROJECTNAME.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">/C/Users/cclark/Documents/Builds/SR Tracker 0.2/NI_AB_PROJECTNAME.exe</Property>
 				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">/C/Users/cclark/Documents/Builds/SR Tracker 0.1/data</Property>
+				<Property Name="Destination[1].path" Type="Path">/C/Users/cclark/Documents/Builds/SR Tracker 0.2/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{7279A735-BF98-413E-B569-F412618A90EE}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{ED6CADB2-5003-4E9E-A0F6-E1EDA5641E27}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Main.vi</Property>
@@ -149,10 +149,10 @@
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">2</Property>
 				<Property Name="TgtF_companyName" Type="Str">National Instruments Corporation</Property>
-				<Property Name="TgtF_fileDescription" Type="Str">SR Tracker 0.1</Property>
-				<Property Name="TgtF_internalName" Type="Str">SR Tracker 0.1</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">SR Tracker 0.2</Property>
+				<Property Name="TgtF_internalName" Type="Str">SR Tracker 0.2</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2019 National Instruments Corporation</Property>
-				<Property Name="TgtF_productName" Type="Str">SR Tracker 0.1</Property>
+				<Property Name="TgtF_productName" Type="Str">SR Tracker 0.2</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{3070DDD1-8406-4E9B-9577-08F4429894F9}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">SR Track.exe</Property>
 				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
