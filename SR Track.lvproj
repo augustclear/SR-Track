@@ -51,6 +51,12 @@
 				<Item Name="Next Value in Line.vi" Type="VI" URL="../Next Value in Line.vi"/>
 				<Item Name="Skip Value.vi" Type="VI" URL="../Skip Value.vi"/>
 			</Item>
+			<Item Name="Screenpops" Type="Folder">
+				<Item Name="Parse HTML.vi" Type="VI" URL="../Parse HTML.vi"/>
+				<Item Name="Parse Notes.vi" Type="VI" URL="../Parse Notes.vi"/>
+				<Item Name="Scrape Screenpops.vi" Type="VI" URL="../Scrape Screenpops.vi"/>
+				<Item Name="SR Note Cluster.ctl" Type="VI" URL="../SR Note Cluster.ctl"/>
+			</Item>
 		</Item>
 		<Item Name="SR Cluster.ctl" Type="VI" URL="../SR Cluster.ctl"/>
 		<Item Name="SR Status.ctl" Type="VI" URL="../SR Status.ctl"/>
@@ -93,6 +99,11 @@
 				<Item Name="General Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler.vi"/>
 				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
 				<Item Name="RGB to Color.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/colorconv.llb/RGB to Color.vi"/>
+				<Item Name="LabVIEWHTTPClient.lvlib" Type="Library" URL="/&lt;vilib&gt;/httpClient/LabVIEWHTTPClient.lvlib"/>
+				<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>
+				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
+				<Item Name="Path To Command Line String.vi" Type="VI" URL="/&lt;vilib&gt;/AdvancedString/Path To Command Line String.vi"/>
+				<Item Name="PathToUNIXPathString.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/CFURL.llb/PathToUNIXPathString.vi"/>
 			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
