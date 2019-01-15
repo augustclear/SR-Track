@@ -17,6 +17,7 @@
 			<Item Name="Get Refnum From Label.vi" Type="VI" URL="../Get Refnum From Label.vi"/>
 			<Item Name="Move Main VI Controls.vi" Type="VI" URL="../Move Main VI Controls.vi"/>
 			<Item Name="Center2.vi" Type="VI" URL="../Center2.vi"/>
+			<Item Name="Initialize Controls.vi" Type="VI" URL="../Initialize Controls.vi"/>
 		</Item>
 		<Item Name="List Control" Type="Folder">
 			<Item Name="Sort VIs" Type="Folder">
@@ -34,6 +35,7 @@
 			<Item Name="Find Missing.vi" Type="VI" URL="../Find Missing.vi"/>
 			<Item Name="Filter SRs.vi" Type="VI" URL="../Filter SRs.vi"/>
 			<Item Name="Merge Lists.vi" Type="VI" URL="../Merge Lists.vi"/>
+			<Item Name="Get SR Number List.vi" Type="VI" URL="../Get SR Number List.vi"/>
 		</Item>
 		<Item Name="List Read-Write" Type="Folder">
 			<Item Name="File IO" Type="Folder">
@@ -56,12 +58,12 @@
 				<Item Name="Parse Notes.vi" Type="VI" URL="../Parse Notes.vi"/>
 				<Item Name="Scrape Screenpops.vi" Type="VI" URL="../Scrape Screenpops.vi"/>
 				<Item Name="SR Note Cluster.ctl" Type="VI" URL="../SR Note Cluster.ctl"/>
+				<Item Name="Add SR Popup.vi" Type="VI" URL="../Add SR Popup.vi"/>
 			</Item>
 		</Item>
 		<Item Name="SR Cluster.ctl" Type="VI" URL="../SR Cluster.ctl"/>
 		<Item Name="SR Status.ctl" Type="VI" URL="../SR Status.ctl"/>
 		<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
-		<Item Name="Get SR Number List.vi" Type="VI" URL="../Get SR Number List.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="LVPointTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVPointTypeDef.ctl"/>
