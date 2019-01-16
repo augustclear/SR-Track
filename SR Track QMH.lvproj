@@ -40,6 +40,7 @@
 		<Item Name="UI VIs" Type="Folder" URL="../UI VIs">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
+		<Item Name="Data Loop.vi" Type="VI" URL="../Data Loop.vi"/>
 		<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
