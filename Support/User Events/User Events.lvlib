@@ -34,7 +34,8 @@
 	<Property Name="SaveStatePeriod" Type="UInt">0</Property>
 	<Property Name="Serialized ACL" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!A1%!!!@````]!!".V&lt;H.J:WZF:#"C?82F)'&amp;S=G&amp;Z!!%!!1!!!!A)!!!!#!!!!!!!!!!</Property>
 	<Property Name="Use Data Logging Database" Type="Bool">true</Property>
-	<Item Name="Fire User Event.vi" Type="VI" URL="../Fire User Event.vi"/>
+	<Item Name="Fire User Event - Stop.vi" Type="VI" URL="../Fire User Event - Stop.vi"/>
 	<Item Name="Create User Events.vi" Type="VI" URL="../Create User Events.vi"/>
 	<Item Name="Destroy User Events.vi" Type="VI" URL="../Destroy User Events.vi"/>
+	<Item Name="Fire User Event - Refresh.vi" Type="VI" URL="../Fire User Event - Refresh.vi"/>
 </Library>
