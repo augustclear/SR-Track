@@ -25,25 +25,11 @@
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 			<Property Name="NI.SortType" Type="Int">3</Property>
 		</Item>
-		<Item Name="List Control" Type="Folder">
-			<Item Name="Sort VIs" Type="Folder">
-				<Item Name="Bubble Sort.vi" Type="VI" URL="../List Control/Sort VIs/Bubble Sort.vi"/>
-				<Item Name="Days Open Comparison.vi" Type="VI" URL="../List Control/Sort VIs/Days Open Comparison.vi"/>
-				<Item Name="Last Updated Comparison.vi" Type="VI" URL="../List Control/Sort VIs/Last Updated Comparison.vi"/>
-				<Item Name="Sort SR List.vi" Type="VI" URL="../List Control/Sort VIs/Sort SR List.vi"/>
-				<Item Name="SR Number Comparison.vi" Type="VI" URL="../List Control/Sort VIs/SR Number Comparison.vi"/>
-				<Item Name="SR Status Comparison.vi" Type="VI" URL="../List Control/Sort VIs/SR Status Comparison.vi"/>
-				<Item Name="SR Type Comparison.vi" Type="VI" URL="../List Control/Sort VIs/SR Type Comparison.vi"/>
-			</Item>
-			<Item Name="Filter SRs.vi" Type="VI" URL="../List Control/Filter SRs.vi"/>
-			<Item Name="Find Missing.vi" Type="VI" URL="../List Control/Find Missing.vi"/>
-			<Item Name="Find SR in List.vi" Type="VI" URL="../List Control/Find SR in List.vi"/>
-			<Item Name="Get SR Number List.vi" Type="VI" URL="../List Control/Get SR Number List.vi"/>
-			<Item Name="Merge Lists.vi" Type="VI" URL="../List Control/Merge Lists.vi"/>
+		<Item Name="EHL" Type="Folder" URL="../EHL">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
-		<Item Name="List IO" Type="Folder">
-			<Item Name="File IO" Type="Folder"/>
-			<Item Name="Screenpops" Type="Folder"/>
+		<Item Name="List Control" Type="Folder">
+			<Item Name="Sort VIs" Type="Folder"/>
 		</Item>
 		<Item Name="MHL - Data" Type="Folder" URL="../MHL - Data">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
@@ -58,10 +44,7 @@
 		<Item Name="Type Defs" Type="Folder" URL="../Type Defs">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
-		<Item Name="Check for SR List File.vi" Type="VI" URL="../Check for SR List File.vi"/>
 		<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
-		<Item Name="Oracle Popup.vi" Type="VI" URL="../Oracle Popup.vi"/>
-		<Item Name="Oracle to Array.vi" Type="VI" URL="../Oracle to Array.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
