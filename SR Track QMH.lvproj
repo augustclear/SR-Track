@@ -28,9 +28,6 @@
 		<Item Name="EHL" Type="Folder" URL="../EHL">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
-		<Item Name="List Control" Type="Folder">
-			<Item Name="Sort VIs" Type="Folder"/>
-		</Item>
 		<Item Name="MHL - Data" Type="Folder" URL="../MHL - Data">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
