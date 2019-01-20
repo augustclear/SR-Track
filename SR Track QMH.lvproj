@@ -25,10 +25,30 @@
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 			<Property Name="NI.SortType" Type="Int">3</Property>
 		</Item>
-		<Item Name="List Control" Type="Folder" URL="../List Control">
+		<Item Name="List Control" Type="Folder">
+			<Item Name="Sort VIs" Type="Folder">
+				<Item Name="Bubble Sort.vi" Type="VI" URL="../List Control/Sort VIs/Bubble Sort.vi"/>
+				<Item Name="Days Open Comparison.vi" Type="VI" URL="../List Control/Sort VIs/Days Open Comparison.vi"/>
+				<Item Name="Last Updated Comparison.vi" Type="VI" URL="../List Control/Sort VIs/Last Updated Comparison.vi"/>
+				<Item Name="Sort SR List.vi" Type="VI" URL="../List Control/Sort VIs/Sort SR List.vi"/>
+				<Item Name="SR Number Comparison.vi" Type="VI" URL="../List Control/Sort VIs/SR Number Comparison.vi"/>
+				<Item Name="SR Status Comparison.vi" Type="VI" URL="../List Control/Sort VIs/SR Status Comparison.vi"/>
+				<Item Name="SR Type Comparison.vi" Type="VI" URL="../List Control/Sort VIs/SR Type Comparison.vi"/>
+			</Item>
+			<Item Name="Filter SRs.vi" Type="VI" URL="../List Control/Filter SRs.vi"/>
+			<Item Name="Find Missing.vi" Type="VI" URL="../List Control/Find Missing.vi"/>
+			<Item Name="Find SR in List.vi" Type="VI" URL="../List Control/Find SR in List.vi"/>
+			<Item Name="Get SR Number List.vi" Type="VI" URL="../List Control/Get SR Number List.vi"/>
+			<Item Name="Merge Lists.vi" Type="VI" URL="../List Control/Merge Lists.vi"/>
+		</Item>
+		<Item Name="List IO" Type="Folder">
+			<Item Name="File IO" Type="Folder"/>
+			<Item Name="Screenpops" Type="Folder"/>
+		</Item>
+		<Item Name="MHL - Data" Type="Folder" URL="../MHL - Data">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
-		<Item Name="List IO" Type="Folder" URL="../List IO">
+		<Item Name="MHL - UI" Type="Folder" URL="../MHL - UI">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
 		<Item Name="Support" Type="Folder" URL="../Support">
@@ -38,12 +58,10 @@
 		<Item Name="Type Defs" Type="Folder" URL="../Type Defs">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
-		<Item Name="UI VIs" Type="Folder" URL="../UI VIs">
-			<Property Name="NI.DISK" Type="Bool">true</Property>
-		</Item>
+		<Item Name="Check for SR List File.vi" Type="VI" URL="../Check for SR List File.vi"/>
 		<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
-		<Item Name="Message Handling Loop - Data.vi" Type="VI" URL="../Message Handling Loop - Data.vi"/>
-		<Item Name="Message Handling Loop - UI.vi" Type="VI" URL="../Message Handling Loop - UI.vi"/>
+		<Item Name="Oracle Popup.vi" Type="VI" URL="../Oracle Popup.vi"/>
+		<Item Name="Oracle to Array.vi" Type="VI" URL="../Oracle to Array.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
@@ -90,40 +108,42 @@
 			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
-			<Item Name="Main Application" Type="EXE">
+			<Item Name="SR Track 0.2" Type="EXE">
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
 				<Property Name="App_INI_aliasGUID" Type="Str">{51D186D8-2FD9-4F4B-8F36-40D68E57FFBC}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{F8BAE070-8383-465E-800B-3DF9D752A65B}</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{96FCFFEE-92FF-41D7-8A5C-2E1B7D4F08B1}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">Main Application</Property>
+				<Property Name="Bld_buildSpecDescription" Type="Str">First build with the QMH</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">SR Track 0.2</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/Main Application</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/SR Track 0.2</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{9236DFC5-A1BE-45C5-93F4-A12737594CB8}</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="Destination[0].destName" Type="Str">Main.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/Main Application/Main.exe</Property>
+				<Property Name="Destination[0].destName" Type="Str">SR Track.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/SR Track 0.2/SR Track.exe</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/Main Application/data</Property>
+				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/SR Track 0.2/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{E7BFF366-DAB8-43B4-AA23-0662F14B8EC9}</Property>
+				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/Support/Icon.ico</Property>
+				<Property Name="Source[0].itemID" Type="Str">{99FB70BE-03E4-463F-B87C-8358D992B918}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Main.vi</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">2</Property>
-				<Property Name="TgtF_fileDescription" Type="Str">Main Application</Property>
-				<Property Name="TgtF_internalName" Type="Str">Main Application</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">SR Track 0.2</Property>
+				<Property Name="TgtF_internalName" Type="Str">SR Track 0.2</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2012 </Property>
-				<Property Name="TgtF_productName" Type="Str">Main Application</Property>
+				<Property Name="TgtF_productName" Type="Str">SR Track 0.2</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{8D31CF1E-BFEE-4FAB-AC90-991853A95B09}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">Main.exe</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">SR Track.exe</Property>
 			</Item>
 		</Item>
 	</Item>
