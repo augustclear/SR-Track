@@ -102,7 +102,6 @@
 				<Property Name="App_INI_aliasGUID" Type="Str">{142B66B4-1046-4088-9598-DD3000BBCD96}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{7AA10E0D-927A-4ED6-975B-47F6CB0C5F60}</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
-				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{8CB7DECA-0CA8-404F-8155-F165C9FE331A}</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">SR Track 0.5</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
@@ -112,7 +111,8 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{3956349A-4454-482C-ACCC-D802A97346AF}</Property>
-				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Bld_version.build" Type="Int">1</Property>
+				<Property Name="Bld_version.minor" Type="Int">5</Property>
 				<Property Name="Destination[0].destName" Type="Str">SR Track.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/SR Track 0.5/SR Track.exe</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
@@ -121,7 +121,7 @@
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/SR Track 0.5/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/Support/Icon.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{E86862F9-448D-471B-8AA2-BDD43B8352E8}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{3351C2FC-FAD5-4A05-9EE3-628A377EED5E}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Main.vi</Property>
