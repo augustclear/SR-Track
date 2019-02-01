@@ -28,7 +28,10 @@
 		<Item Name="EHL" Type="Folder" URL="../EHL">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
-		<Item Name="MHL - Data" Type="Folder" URL="../MHL - Data">
+		<Item Name="MHL - File IO" Type="Folder" URL="../MHL - File IO">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
+		<Item Name="MHL - Screenpop" Type="Folder" URL="../MHL - Screenpop">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
 		<Item Name="MHL - UI" Type="Folder" URL="../MHL - UI">
