@@ -101,31 +101,31 @@
 			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
-			<Item Name="SR Track 0.5" Type="EXE">
+			<Item Name="SR Track 1.0" Type="EXE">
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
 				<Property Name="App_INI_aliasGUID" Type="Str">{142B66B4-1046-4088-9598-DD3000BBCD96}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{7AA10E0D-927A-4ED6-975B-47F6CB0C5F60}</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{8CB7DECA-0CA8-404F-8155-F165C9FE331A}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">SR Track 0.5</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">SR Track 1.0</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/SR Track 0.5</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/SR Track 1.0</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{3956349A-4454-482C-ACCC-D802A97346AF}</Property>
 				<Property Name="Bld_version.build" Type="Int">1</Property>
-				<Property Name="Bld_version.minor" Type="Int">5</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">SR Track.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/SR Track 0.5/SR Track.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/SR Track 1.0/SR Track.exe</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/SR Track 0.5/data</Property>
+				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/SR Track 1.0/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/Support/Icon.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{3351C2FC-FAD5-4A05-9EE3-628A377EED5E}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{613758A2-9D15-49CC-8D2F-56E7FD885D1B}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Main.vi</Property>
@@ -133,10 +133,10 @@
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">2</Property>
 				<Property Name="TgtF_companyName" Type="Str">National Instruments Corporation</Property>
-				<Property Name="TgtF_fileDescription" Type="Str">SR Track 0.5</Property>
-				<Property Name="TgtF_internalName" Type="Str">SR Track 0.5</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">SR Track 1.0</Property>
+				<Property Name="TgtF_internalName" Type="Str">SR Track 1.0</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2019 National Instruments Corporation</Property>
-				<Property Name="TgtF_productName" Type="Str">SR Track 0.5</Property>
+				<Property Name="TgtF_productName" Type="Str">SR Track 1.0</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{31E9D02F-006D-49AB-9728-D1DCED66C44B}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">SR Track.exe</Property>
 				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
