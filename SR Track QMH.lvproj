@@ -21,10 +21,6 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="Documentation" Type="Folder" URL="../Documentation">
-			<Property Name="NI.DISK" Type="Bool">true</Property>
-			<Property Name="NI.SortType" Type="Int">3</Property>
-		</Item>
 		<Item Name="EHL" Type="Folder" URL="../EHL">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
