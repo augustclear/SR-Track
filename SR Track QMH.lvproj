@@ -200,7 +200,7 @@
 				<Property Name="INST_defaultDir" Type="Str">{3D5823EA-A594-4FDB-B1A1-B7B4AF34BA1A}</Property>
 				<Property Name="INST_installerName" Type="Str">install.exe</Property>
 				<Property Name="INST_productName" Type="Str">SR Track</Property>
-				<Property Name="INST_productVersion" Type="Str">1.0.4</Property>
+				<Property Name="INST_productVersion" Type="Str">1.0.6</Property>
 				<Property Name="InstSpecBitness" Type="Str">32-bit</Property>
 				<Property Name="InstSpecVersion" Type="Str">18018001</Property>
 				<Property Name="MSI_arpCompany" Type="Str">National Instruments Corporation</Property>
@@ -221,7 +221,11 @@
 				<Property Name="Source[0].File[0].Shortcut[0].subDir" Type="Str">SR Track QMH</Property>
 				<Property Name="Source[0].File[0].ShortcutCount" Type="Int">1</Property>
 				<Property Name="Source[0].File[0].tag" Type="Str">{31E9D02F-006D-49AB-9728-D1DCED66C44B}</Property>
-				<Property Name="Source[0].FileCount" Type="Int">1</Property>
+				<Property Name="Source[0].File[1].dest" Type="Str">{3D5823EA-A594-4FDB-B1A1-B7B4AF34BA1A}</Property>
+				<Property Name="Source[0].File[1].name" Type="Str">SR Track.ini</Property>
+				<Property Name="Source[0].File[1].tag" Type="Str">{7AA10E0D-927A-4ED6-975B-47F6CB0C5F60}</Property>
+				<Property Name="Source[0].File[1].unlock" Type="Bool">true</Property>
+				<Property Name="Source[0].FileCount" Type="Int">2</Property>
 				<Property Name="Source[0].name" Type="Str">SR Track</Property>
 				<Property Name="Source[0].tag" Type="Ref">/My Computer/Build Specifications/SR Track</Property>
 				<Property Name="Source[0].type" Type="Str">EXE</Property>
