@@ -1,4 +1,4 @@
-# SR-Track 0.5
+# SR-Track 1.0
 
 This tool was developed to help National Instruments AEs keep better track of their Service Requests.
 
