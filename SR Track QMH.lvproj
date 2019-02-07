@@ -40,7 +40,9 @@
 		<Item Name="Type Defs" Type="Folder" URL="../Type Defs">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
+		<Item Name="LICENSE" Type="Document" URL="../LICENSE"/>
 		<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
+		<Item Name="README.md" Type="Document" URL="../README.md"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
@@ -200,7 +202,7 @@
 				<Property Name="INST_defaultDir" Type="Str">{3D5823EA-A594-4FDB-B1A1-B7B4AF34BA1A}</Property>
 				<Property Name="INST_installerName" Type="Str">install.exe</Property>
 				<Property Name="INST_productName" Type="Str">SR Track</Property>
-				<Property Name="INST_productVersion" Type="Str">1.0.11</Property>
+				<Property Name="INST_productVersion" Type="Str">1.0.12</Property>
 				<Property Name="InstSpecBitness" Type="Str">32-bit</Property>
 				<Property Name="InstSpecVersion" Type="Str">18018001</Property>
 				<Property Name="MSI_arpCompany" Type="Str">National Instruments Corporation</Property>
@@ -229,7 +231,15 @@
 				<Property Name="Source[0].name" Type="Str">SR Track</Property>
 				<Property Name="Source[0].tag" Type="Ref">/My Computer/Build Specifications/SR Track</Property>
 				<Property Name="Source[0].type" Type="Str">EXE</Property>
-				<Property Name="SourceCount" Type="Int">1</Property>
+				<Property Name="Source[1].dest" Type="Str">{3D5823EA-A594-4FDB-B1A1-B7B4AF34BA1A}</Property>
+				<Property Name="Source[1].name" Type="Str">LICENSE</Property>
+				<Property Name="Source[1].tag" Type="Ref">/My Computer/LICENSE</Property>
+				<Property Name="Source[1].type" Type="Str">File</Property>
+				<Property Name="Source[2].dest" Type="Str">{3D5823EA-A594-4FDB-B1A1-B7B4AF34BA1A}</Property>
+				<Property Name="Source[2].name" Type="Str">README.md</Property>
+				<Property Name="Source[2].tag" Type="Ref">/My Computer/README.md</Property>
+				<Property Name="Source[2].type" Type="Str">File</Property>
+				<Property Name="SourceCount" Type="Int">3</Property>
 			</Item>
 		</Item>
 	</Item>
