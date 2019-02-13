@@ -202,7 +202,7 @@
 				<Property Name="INST_defaultDir" Type="Str">{3D5823EA-A594-4FDB-B1A1-B7B4AF34BA1A}</Property>
 				<Property Name="INST_installerName" Type="Str">install.exe</Property>
 				<Property Name="INST_productName" Type="Str">SR Track</Property>
-				<Property Name="INST_productVersion" Type="Str">1.0.14</Property>
+				<Property Name="INST_productVersion" Type="Str">1.0.15</Property>
 				<Property Name="InstSpecBitness" Type="Str">32-bit</Property>
 				<Property Name="InstSpecVersion" Type="Str">18018001</Property>
 				<Property Name="MSI_arpCompany" Type="Str">National Instruments Corporation</Property>
