@@ -118,7 +118,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{3956349A-4454-482C-ACCC-D802A97346AF}</Property>
-				<Property Name="Bld_version.build" Type="Int">6</Property>
+				<Property Name="Bld_version.build" Type="Int">7</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Bld_version.minor" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">SR Track.exe</Property>
@@ -204,7 +204,7 @@
 				<Property Name="INST_defaultDir" Type="Str">{3D5823EA-A594-4FDB-B1A1-B7B4AF34BA1A}</Property>
 				<Property Name="INST_installerName" Type="Str">install.exe</Property>
 				<Property Name="INST_productName" Type="Str">SR Track</Property>
-				<Property Name="INST_productVersion" Type="Str">1.1.4</Property>
+				<Property Name="INST_productVersion" Type="Str">1.1.5</Property>
 				<Property Name="InstSpecBitness" Type="Str">32-bit</Property>
 				<Property Name="InstSpecVersion" Type="Str">18018001</Property>
 				<Property Name="MSI_arpCompany" Type="Str">National Instruments Corporation</Property>
