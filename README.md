@@ -1,6 +1,6 @@
 # SR-Track 1.1
 
-This tool was developed to help National Instruments AEs keep better track of their Service Requests.
+This tool was developed to help National Instruments TSEs keep better track of their Service Requests.
 
 ## Installation
 
