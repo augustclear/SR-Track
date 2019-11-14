@@ -4,7 +4,7 @@ This tool was developed to help National Instruments TSEs keep better track of t
 
 ## Installation
 
-For latest installer version, contact Cullen Clark at cullen.clark@ni.com
+For latest installer version, contact Claire Clark at claire.clark@ni.com
 
 ## Getting Started
 
@@ -21,10 +21,10 @@ https://docs.google.com/spreadsheets/d/1FyYAztMaX9QOkzhqIYzxA3sRjZcqzi_csGhE5H3z
 
 ## Contribution
 
-To contribute to this project, contact Cullen Clark at cullen.clark@ni.com
+To contribute to this project, contact Claire Clark at claire.clark@ni.com
 
 This project can be found on GitHub at https://github.com/augustclear/SR-Track
 
 ## Author
 
-Cullen Clark
+Claire Clark
